@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\bin\Debug\SitoErastostenesa.exe.config
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\bin\Debug\SitoErastostenesa.exe
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\bin\Debug\SitoErastostenesa.pdb
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\obj\Debug\SitoErastostenesa.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\obj\Debug\SitoErastostenesa.Form1.resources
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\obj\Debug\SitoErastostenesa.Properties.Resources.resources
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\obj\Debug\SitoErastostenesa.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\obj\Debug\SitoErastostenesa.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\obj\Debug\SitoErastostenesa.exe
+C:\Users\User\Desktop\Programowanie\C#\Windows Forms App\SitoErastostenesa\SitoErastostenesa\SitoErastostenesa\obj\Debug\SitoErastostenesa.pdb
