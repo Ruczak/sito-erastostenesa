@@ -32,7 +32,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnPrzesiej = new System.Windows.Forms.Button();
             this.lblTablica = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlObiekty = new System.Windows.Forms.Panel();
+            this.pnlLegenda = new System.Windows.Forms.Panel();
+            this.generujSchemat = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // tbZakres
@@ -53,9 +55,9 @@
             // 
             // btnPrzesiej
             // 
-            this.btnPrzesiej.Location = new System.Drawing.Point(12, 44);
+            this.btnPrzesiej.Location = new System.Drawing.Point(128, 41);
             this.btnPrzesiej.Name = "btnPrzesiej";
-            this.btnPrzesiej.Size = new System.Drawing.Size(221, 23);
+            this.btnPrzesiej.Size = new System.Drawing.Size(106, 23);
             this.btnPrzesiej.TabIndex = 2;
             this.btnPrzesiej.Text = "Przesiej";
             this.btnPrzesiej.UseVisualStyleBackColor = true;
@@ -64,26 +66,54 @@
             // lblTablica
             // 
             this.lblTablica.AutoSize = true;
-            this.lblTablica.Location = new System.Drawing.Point(13, 70);
+            this.lblTablica.Location = new System.Drawing.Point(13, 68);
             this.lblTablica.MaximumSize = new System.Drawing.Size(220, 0);
             this.lblTablica.MinimumSize = new System.Drawing.Size(220, 0);
             this.lblTablica.Name = "lblTablica";
             this.lblTablica.Size = new System.Drawing.Size(220, 13);
             this.lblTablica.TabIndex = 3;
             // 
-            // panel1
+            // pnlObiekty
             // 
-            this.panel1.Location = new System.Drawing.Point(239, 15);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(292, 423);
-            this.panel1.TabIndex = 4;
+            this.pnlObiekty.AutoSize = true;
+            this.pnlObiekty.Location = new System.Drawing.Point(239, 5);
+            this.pnlObiekty.MaximumSize = new System.Drawing.Size(320, 0);
+            this.pnlObiekty.MinimumSize = new System.Drawing.Size(320, 0);
+            this.pnlObiekty.Name = "pnlObiekty";
+            this.pnlObiekty.Size = new System.Drawing.Size(320, 0);
+            this.pnlObiekty.TabIndex = 4;
+            // 
+            // pnlLegenda
+            // 
+            this.pnlLegenda.AutoSize = true;
+            this.pnlLegenda.Location = new System.Drawing.Point(16, 81);
+            this.pnlLegenda.Name = "pnlLegenda";
+            this.pnlLegenda.Size = new System.Drawing.Size(220, 0);
+            this.pnlLegenda.TabIndex = 5;
+            // 
+            // generujSchemat
+            // 
+            this.generujSchemat.AutoSize = true;
+            this.generujSchemat.Checked = true;
+            this.generujSchemat.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.generujSchemat.Location = new System.Drawing.Point(12, 45);
+            this.generujSchemat.Name = "generujSchemat";
+            this.generujSchemat.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.generujSchemat.Size = new System.Drawing.Size(106, 17);
+            this.generujSchemat.TabIndex = 6;
+            this.generujSchemat.Text = "Generuj schemat";
+            this.generujSchemat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.generujSchemat.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(546, 450);
-            this.Controls.Add(this.panel1);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(580, 450);
+            this.Controls.Add(this.generujSchemat);
+            this.Controls.Add(this.pnlLegenda);
+            this.Controls.Add(this.pnlObiekty);
             this.Controls.Add(this.lblTablica);
             this.Controls.Add(this.btnPrzesiej);
             this.Controls.Add(this.label1);
@@ -92,6 +122,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.Text = "Sito Erastostenesa";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -104,7 +135,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnPrzesiej;
         private System.Windows.Forms.Label lblTablica;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlObiekty;
+        private System.Windows.Forms.Panel pnlLegenda;
+        private System.Windows.Forms.CheckBox generujSchemat;
     }
 }
 
