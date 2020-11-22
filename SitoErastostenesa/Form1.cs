@@ -20,7 +20,6 @@ namespace SitoErastostenesa
         public Form1()
         {
             InitializeComponent();
-            
         }
 
         private void Sito(bool[] tab, int n)
@@ -123,3 +122,5 @@ namespace SitoErastostenesa
         }
     }
 }
+
+// Autor: Igor Sarnowski
